@@ -1,0 +1,438 @@
+/* Navbar */
+#header .navbar-expand-lg {
+    border-radius: 0;
+    box-shadow: 0 20px 30px 0 rgb(0 0 0 / 14%) !important;
+    background-color: #7EC4A0;
+    color: white !important;
+    height: 84px !important;
+}
+
+#header .navbar-brand {
+    width: 100px;
+    margin-left: 200px;
+}
+
+
+#header .nav-item {
+    margin-left: 20px !important;
+}
+
+#header .navbar-nav>.nav-item>a {
+    transition: ease 0.3s;
+    font-size: 16px;
+}
+
+
+
+#header .open_user {
+    border: none;
+    background: none;
+    outline: none;
+}
+
+#header .open_user:focus {
+    outline: none;
+}
+
+#header .open_user>i,
+#header .navbar-nav>.nav-item>a>i {
+    transition: ease 0.3s;
+    color: white !important;
+    font-size: 22px !important;
+}
+
+
+#header .open_user>i:hover,
+#header .navbar-nav>.nav-item>a:hover,
+#header .navbar-nav>.nav-item>a>i:hover {
+    transition: ease 0.3s;
+    color: #5FA870 !important;
+    text-decoration: none;
+}
+
+.footer_image {
+    width: 50%;
+    margin-left: 110px;
+}
+
+@media screen and (max-width:1175px) {
+    #header .navbar-brand {
+        width: 80px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    #header .navbar-expand-lg {
+        height: auto !important;
+    }
+
+    #header .nav-item {
+        margin-left: 0px !important;
+    }
+
+    .footer_image {
+        margin-left: 0;
+    }
+
+    #header .health_care {
+        height: auto;
+    }
+
+    #header .navbar-toggler {
+        border-color: black !important;
+    }
+
+    #header .navbar-toggler:focus {
+        outline: none !important;
+    }
+
+    #cart_section .cart_top {
+        background-size: 453px 133px;
+    }
+}
+
+#header .dot_relative {
+
+    position: relative;
+}
+
+#header .dot_relative>.dot {
+    transition: ease 0.3s;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#header .w3-modal {
+    padding-top: 50px !important;
+}
+
+#header .w3-btn,
+#header .w3-button {
+    color: black !important;
+}
+
+#header .register:hover {
+    text-decoration: none;
+}
+
+#header .dropdown-toggle {
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+}
+
+#header .dropdown-toggle:focus {
+    outline: none;
+}
+
+#header .dropdown-toggle::after {
+    display: none;
+}
+
+#header .dropdown-menu {
+    min-width: 35rem;
+    padding: 1.5rem 0 3.5rem 0 !important;
+    margin: 1.125rem -260px 0px;
+    background-color: #fff;
+    border-radius: 0rem;
+}
+
+.language {
+    color: white !important;
+    padding: 0 !important;
+    font-size: 16px !important;
+    outline: none !important;
+}
+
+.language:focus {
+    outline: none !important;
+}
+
+#header .dropdown-toggle {
+    transition: ease 0.3s;
+}
+
+.language:hover,
+#header .dropdown-toggle:hover {
+    transition: ease 0.3s;
+    color: #5FA870 !important;
+    text-decoration: none;
+}
+
+#header .dropbtn-header {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    z-index: 500;
+}
+
+#header .dropbtn-header:focus {
+    outline: none !important;
+}
+
+#header .dropdown-header {
+    display: inline-block;
+    padding: 0px;
+}
+
+#header .dropdown-content-header {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 130px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 10px;
+    top: 75px;
+    right: 165px;
+}
+
+#header .dropdown-content-header a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+#header .dropdown-content-header a:hover {
+    background-color: #ddd;
+}
+
+#header .dropdown-show {
+    display: block;
+}
+
+#header .tri {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #f1f1f1;
+    border-left: 20px solid transparent;
+    display: none;
+    right: 212px;
+}
+
+#header .product_list_B:hover,
+#header .product_list_A:hover {
+    color: black;
+    /* text-decoration: none; */
+}
+
+#header .cart_dot {
+    transition: ease 0.3s;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    transform: translate(55%, -74%);
+    font-size: 13px;
+}
+
+#header .cart_dot:hover {
+    cursor: pointer;
+}
+
+
+
+/* Home Page */
+#home .health_care {
+    padding: 0;
+    background: url('../images/home_theme.jpg');
+    background-size: cover;
+}
+
+
+#home .card>p {
+    color: #878787;
+}
+
+#home #shopping_productA {
+    background: url("https://www.teahub.io/photos/full/57-577113_photo-wallpaper-makeup-shadows-cosmetics-blush-backgrounds-makeup.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#home #shopping_productB {
+    background: url("../images/shoe.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+#home #shopping_productA>.col-lg-12,
+#home #shopping_productB>.col-lg-12 {
+    padding: 150px 0 150px 15px;
+}
+
+
+/* Search and Tracking Page */
+#cart_section .cart_name,
+#search_section .search_name,
+#tracking_section .tracking_name,
+#contact_us .contact_name {
+    padding: 10% 0 10% 0;
+    z-index: 80;
+    color: black;
+}
+
+
+
+/* Product Page */
+#product_list .product_list_image {
+    position: relative;
+    background: url("../images/product_image_background.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 58%;
+    z-index: 49;
+}
+
+#product_list .product_category_name {
+    padding: 10% 0 10% 0;
+    color: white;
+}
+
+
+/* cart */
+#cart_section .cart_top {
+    position: relative;
+    background: url("../images/cart_background.png");
+    background-position: 50% 58%;
+    background-repeat: no-repeat;
+    z-index: 49;
+}
+
+.footer_img {
+    text-align: right !important;
+}
+
+
+@media screen and (max-width:991px) {
+
+    .checkout_back {
+        display: none;
+    }
+
+    #header .dropbtn-header {
+        margin-top: 5px !important;
+        margin-left: -15% !important;
+    }
+
+    /* #header .dropdown-header {
+        margin-top:5px !important;
+        margin-left: -5px !important;
+    } */
+
+    #header .dropdown-menu {
+        padding: 1.5rem 0 !important;
+        margin: 0 120px 0 0!important;
+        background-color: #fff;
+        border-radius: 0rem;
+        
+    }
+
+    #cart_section .cart_top {
+        background-size: 484px 129px;
+        background-position: 50% 58%;
+    }
+
+    #header .product_category {
+        /* padding-top: -20px; */
+        max-width: 700px;
+        /* margin-top: -30px; */
+    }
+
+    #header .product_category_list {
+        width: 100% !important;
+    }
+
+    #header .dropdown-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /* #header .dot_relative>.dot:hover {
+        display: none !important;
+    } */
+
+    .footer_img {
+        text-align: left !important;
+    }
+}
+
+@media screen and (max-width:795px) {
+    #header .dropdown-item {
+        padding-top: 10px;
+        padding-left: 0px !important;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+
+    #header .dropdown-menu {
+        min-width: auto;
+    }
+
+    #header .product_category {
+        /* padding-top: -20px; */
+        max-width: 660px;
+        /* margin-top: -30px; */
+    }
+}
+
+@media screen and (max-width:414px) {
+    /* #header .dropdown-menu {
+        max-width: 63rem !important;
+        max-height: 21rem !important;
+        padding: 3.5rem 0;
+        margin: 0px !important;
+        background-color: #fff;
+        border-radius: 0rem;
+    } */
+    /* 
+    #cart_section .cart_top {
+        background-size: 484px 129px;
+        background-position: 50% 58%;
+    }
+
+    #header .product_category {
+        padding-top: -20px;
+        max-width: 710px;
+        margin-top: -30px;
+    } */
+}
+
+
+/* check out */
+.checkout_back {
+    padding: 10px 30px 10px 30px !important;
+    transform: rotateZ(90deg);
+    left: -40px;
+    top: 190px;
+    position: absolute;
+    z-index: 101;
+}
+
+
+/* other */
+input[type='search'],
+input[type='email'],
+input[type='password'],
+input[type='text'] {
+    border: none;
+    background-color: #F1F3F5;
+}
